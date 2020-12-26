@@ -18,7 +18,7 @@ function modelLoaded() {
 console.log("modelLoaded");
 }
 function speak() {
-    synth = window.SpeechSynthesis;
+    synth = window.speechSynthesis;
     speak_1= "The first prediction is"+prediction_1;
     speak_2= "The second prediction is"+prediction_2;
     var utterThis= new SpeechSynthesisUtterance(speak_1+speak_2);
