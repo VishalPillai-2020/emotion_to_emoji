@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(100deg, turquoise 0%, violet 50%,#6b0f1a 0%, #b91372 74% );
+}
+.heading{
+    font-size: 20px;
+    border-radius:50px;
+    letter-spacing:10px;
+}
+span{
+    font-size:30px;
+
+}
+#webcam_view, #snapshot_view{
+    width:350px;
+    height:300px;
+    border:inset 2px grey;
+}
+label{
+    font-family:SF Pro Display;
+    font-size:17px;
+    background-color:white ;
+    color:grey;
+    padding:7px;
+    border-radius:20px;
+}
+button{
+    font-family:SF Pro Display !important;
+
+}
+#prediction_1, #prediction_2{
+    font-size:40px;
+    color:black;
+}
+#prediction_1_emoji, #prediction_2_emoji{
+    font-size:48px;
+}
